@@ -151,7 +151,7 @@ export default function HomePage() {
       </header>
 
       {/* ── Hero ───────────────────────────────────────────────────────────── */}
-      <section className="max-w-[1200px] mx-auto px-4 pt-8 md:pt-14 pb-12 md:pb-20 overflow-hidden">
+      <section className="max-w-[1200px] mx-auto px-4 pt-8 md:pt-14 pb-12 md:pb-20">
         <div className="grid lg:grid-cols-2 gap-8 md:gap-12 items-center">
           <div>
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-50 text-emerald-700 text-[11px] md:text-[12px] font-medium mb-4 border border-emerald-100">
