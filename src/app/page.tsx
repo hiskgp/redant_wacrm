@@ -60,7 +60,7 @@ const T = {
 type Lang = "ta" | "en";
 
 export default function HomePage() {
-  const [lang, setLang] = useState<Lang>("ta");
+  const [lang, setLang] = useState<Lang>("en");
   const [menuOpen, setMenuOpen] = useState(false);
   const [msgCount, setMsgCount] = useState(0);
 
