@@ -130,7 +130,7 @@ export default function HomePage() {
             <Link href="/login" className="hidden sm:grid h-9 md:h-10 px-4 text-slate-600 rounded-lg text-[13px] md:text-[14px] font-semibold place-items-center hover:bg-slate-50 transition">
               {t.login}
             </Link>
-            <Link href="/register" className="hidden sm:grid h-9 md:h-10 px-4 md:px-5 bg-[#00A651] text-white rounded-lg text-[13px] md:text-[14px] font-semibold place-items-center hover:bg-[#008f46] transition">
+            <Link href="/signup" className="hidden sm:grid h-9 md:h-10 px-4 md:px-5 bg-[#00A651] text-white rounded-lg text-[13px] md:text-[14px] font-semibold place-items-center hover:bg-[#008f46] transition">
               {t.navCta}
             </Link>
             <button onClick={() => setMenuOpen(!menuOpen)} className="lg:hidden p-2">
@@ -143,7 +143,7 @@ export default function HomePage() {
             <a href="#features" onClick={() => setMenuOpen(false)} className="block py-2">{t.navFeatures}</a>
             <a href="#pricing" onClick={() => setMenuOpen(false)} className="block py-2">{t.navPricing}</a>
             <Link href="/login" onClick={() => setMenuOpen(false)} className="block py-2">{t.login}</Link>
-            <Link href="/register" onClick={() => setMenuOpen(false)} className="block mt-4 h-11 bg-[#00A651] text-white rounded-lg font-semibold grid place-items-center">
+            <Link href="/signup" onClick={() => setMenuOpen(false)} className="block mt-4 h-11 bg-[#00A651] text-white rounded-lg font-semibold grid place-items-center">
               {t.navCta}
             </Link>
           </div>
@@ -168,7 +168,7 @@ export default function HomePage() {
             </h1>
             <p className="mt-4 text-[15px] md:text-[18px] text-slate-600 leading-relaxed">{t.heroSub}</p>
             <div className="mt-6 flex flex-col sm:flex-row gap-3">
-              <Link href="/register" className="group h-11 md:h-12 px-6 bg-[#00A651] text-white rounded-xl font-semibold grid place-items-center hover:bg-[#008f46] transition-all hover:shadow-lg hover:shadow-emerald-500/25 relative overflow-hidden">
+              <Link href="/signup" className="group h-11 md:h-12 px-6 bg-[#00A651] text-white rounded-xl font-semibold grid place-items-center hover:bg-[#008f46] transition-all hover:shadow-lg hover:shadow-emerald-500/25 relative overflow-hidden">
                 <span className="relative z-10 flex items-center gap-2">{t.heroCta1} <span className="group-hover:translate-x-0.5 transition-transform">→</span></span>
               </Link>
               <a href="#features" className="h-11 md:h-12 px-5 border border-slate-300 rounded-xl font-medium grid place-items-center hover:bg-slate-50 hover:border-slate-400 transition-all">
@@ -442,7 +442,7 @@ export default function HomePage() {
             <h3 className="font-tamil text-[26px] md:text-[30px] font-extrabold tracking-tight">{t.waitTitle}</h3>
             <p className="text-[15px] text-slate-600 mt-1.5 max-w-md mx-auto">{t.waitSub}</p>
             <div className="mt-7 flex flex-col sm:flex-row gap-3 justify-center">
-              <Link href="/register" className="group h-12 px-7 bg-[#00A651] text-white rounded-xl font-semibold grid place-items-center hover:bg-[#008f46] transition-all hover:shadow-lg hover:shadow-emerald-500/25 active:scale-[0.98]">
+              <Link href="/signup" className="group h-12 px-7 bg-[#00A651] text-white rounded-xl font-semibold grid place-items-center hover:bg-[#008f46] transition-all hover:shadow-lg hover:shadow-emerald-500/25 active:scale-[0.98]">
                 <span className="flex items-center gap-2">{t.ctaPrimary}</span>
               </Link>
               <Link href="/login" className="h-12 px-7 border border-slate-300 rounded-xl font-medium grid place-items-center hover:bg-slate-50 transition-all">
@@ -466,7 +466,7 @@ export default function HomePage() {
           </div>
           <div className="flex items-center gap-5">
             <Link href="/login" className="hover:text-slate-700 transition-colors">{t.login}</Link>
-            <Link href="/register" className="hover:text-slate-700 transition-colors">{t.signup}</Link>
+            <Link href="/signup" className="hover:text-slate-700 transition-colors">{t.signup}</Link>
           </div>
         </div>
       </footer>
