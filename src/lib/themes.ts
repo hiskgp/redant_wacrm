@@ -14,8 +14,8 @@
  */
 
 export const THEME_IDS = [
-  "violet",
   "emerald",
+  "violet",
   "cobalt",
   "amber",
   "rose",
