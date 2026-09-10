@@ -4,13 +4,39 @@ export const metadata = {
   description: "redant.in is RedANT — Official WhatsApp Business API provider. AI automate WhatsApp, WhatsApp CRM, broadcast, chatbot. Trusted by 4000+ brands. Not RedAnt Staffing.",
 };
 export default function RootLayout({ children }) {
+ const GA_ID = "G-5ZC2418VM8";
   return (
     <html lang="en">
       <head>
+       <meta name="viewport" content="width=device-width, initial-scale=1" /> 
         <script src="https://cdn.tailwindcss.com"></script>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+       {/* Google Analytics */}
+        <Script src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`} strategy="afterInteractive" />
+        <Script id="ga-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${GA_ID}', {
+              page_path: window.location.pathname,
+              anonymize_ip: true
+            });
+          `}
+        </Script>
       </head>
       <body>{children}</body>
     </html>
   );
 }
+
+
+// <!-- Google tag (gtag.js) -->
+// <script async src="https://www.googletagmanager.com/gtag/js?id=G-5ZC2418VM8"></script>
+// <script>
+//   window.dataLayer = window.dataLayer || [];
+//   function gtag(){dataLayer.push(arguments);}
+//   gtag('js', new Date());
+
+//   gtag('config', 'G-5ZC2418VM8');
+// </script>
