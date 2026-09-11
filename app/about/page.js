@@ -3,7 +3,7 @@ export default function AboutPage() {
     <div className="min-h-screen bg-[#0A0A0B] text-white">
       <nav className="sticky top-0 z-50 border-b border-white/5 bg-[#0A0A0B]/80 backdrop-blur-xl">
         <div className="mx-auto max-w-7xl px-6 h-16 flex items-center justify-between">
-          <a href="/" className="flex items-center gap-2 font-black text-xl"><span className="h-7 w-7 rounded-lg bg-[#FF2D2D] grid place-items-center">R</span> RedANT</a>
+          <a href="/" className="flex items-center gap-2 font-black text-xl"><img src="../icon.png" alt="RedANT" className="h-12 w-auto" />RedANT</a>
           <div className="flex gap-6 text-sm text-white/60"><a href="/privacy" className="hover:text-white">Privacy</a><a href="/terms" className="hover:text-white">Terms</a><a href="/" className="hover:text-white">← Home</a></div>
         </div>
       </nav>

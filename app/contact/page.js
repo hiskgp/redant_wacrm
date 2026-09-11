@@ -1,7 +1,7 @@
 export default function ContactPage(){
  return (
   <div className="min-h-screen bg-[#0A0A0B] text-white">
-    <nav className="sticky top-0 border-b border-white/5 bg-[#0A0A0B]/80 backdrop-blur-xl"><div className="mx-auto max-w-7xl px-6 h-16 flex items-center justify-between"><a href="/" className="font-black text-xl flex gap-2 items-center"><span className="h-7 w-7 rounded-lg bg-[#FF2D2D] grid place-items-center">R</span>RedANT</a><a href="/" className="text-sm text-white/60">← Home</a></div></nav>
+    <nav className="sticky top-0 border-b border-white/5 bg-[#0A0A0B]/80 backdrop-blur-xl"><div className="mx-auto max-w-7xl px-6 h-16 flex items-center justify-between"><a href="/" className="font-black text-xl flex gap-2 items-center"><img src="../icon.png" alt="RedANT" className="h-12 w-auto" />RedANT</a><a href="/" className="text-sm text-white/60">← Home</a></div></nav>
     <section className="mx-auto max-w-4xl px-6 py-16 md:py-24">
       <h1 className="text-5xl font-black">Contact Us</h1><p className="mt-3 text-zinc-500">We reply in 4 minutes on WhatsApp.</p>
       <div className="mt-10 grid md:grid-cols-2 gap-6">
