@@ -12,17 +12,28 @@ export default function AboutPage() {
         <div className="inline-flex px-3 py-1 rounded-full border border-white/10 bg-white/5 text-xs text-white/50">About redant.in • Est. 2019</div>
         <h1 className="mt-6 text-4xl md:text-6xl font-black leading-[0.95] tracking-tight">We are RedANT.<br/><span className="bg-gradient-to-r from-[#FF2D2D] to-orange-300 bg-clip-text text-transparent">AI-powered WhatsApp automation for growing businesses</span></h1>
 
-        <p className="mt-8 text-lg leading-relaxed text-zinc-400 max-w-3xl">redant.in is RedANT — Official WhatsApp Business API Provider and WhatsApp CRM platform built in Tirupur, Tamil Nadu. We help 4000+ D2C brands turn WhatsApp into their #1 revenue channel. If you searched "redant.in" and saw RedAnt Staffing, you are not alone — there are multiple companies with similar names. This site is for WhatsApp automation, not recruitment.</p>
+        <p className="mt-8 text-lg leading-relaxed text-zinc-400 max-w-3xl">RedANT is a WhatsApp Business automation platform built for modern businesses that want to sell, support, and engage customers without spending their entire day replying to messages.</p>
+        <p className="mt-8 text-lg leading-relaxed text-zinc-400 max-w-3xl">We combine AI, WhatsApp automation, team inboxes, broadcasts, payments, and business integrations into one simple platform.</p>
+        <p className="mt-8 text-lg leading-relaxed text-zinc-400 max-w-3xl">Less manual work. More conversations. More conversions.</p>
 
         <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-4">
-          <div className="rounded-2xl border border-white/10 bg-white/[0.03] p-6"><div className="text-3xl font-black">2019</div><p className="text-sm text-zinc-500 mt-1">Founded in Tirupur, TN. Bootstrapped to 4000+ customers</p></div>
-          <div className="rounded-2xl border border-white/10 bg-white/[0.03] p-6"><div className="text-3xl font-black">50M+</div><p className="text-sm text-zinc-500 mt-1">WhatsApp messages automated every month</p></div>
+          <div className="rounded-2xl border border-white/10 bg-white/[0.03] p-6"><div className="text-3xl font-black">2021</div><p className="text-sm text-zinc-500 mt-1">Founded in Tirupur, TN. Bootstrapped to 1000+ customers</p></div>
+          <div className="rounded-2xl border border-white/10 bg-white/[0.03] p-6"><div className="text-3xl font-black">10M+</div><p className="text-sm text-zinc-500 mt-1">WhatsApp messages automated every month</p></div>
           <div className="rounded-2xl border border-white/10 bg-white/[0.03] p-6"><div className="text-3xl font-black">Meta Verified</div><p className="text-sm text-zinc-500 mt-1">Official Tech Provider, Green Tick enabled</p></div>
         </div>
 
         <div className="mt-16">
           <h2 className="text-2xl font-bold">Our Mission</h2>
-          <p className="mt-3 text-zinc-400 leading-relaxed">Make WhatsApp the fastest, cheapest revenue channel for Indian businesses. No per-agent pricing. No spam bans. AI replies in &lt;2 seconds, recovers COD, sends UPI payment links, and syncs with Shopify, WooCommerce, Razorpay.</p>
+          <p className="mt-3 text-zinc-400 leading-relaxed">Make every business conversation count.</p>
+
+          <p className="mt-3 text-zinc-400 leading-relaxed">We want businesses to spend less time managing repetitive messages and more time building products, serving customers, and growing their brands.</p>
+
+          <p className="mt-3 text-zinc-400 leading-relaxed">Every message should have a purpose.</p>
+
+          <p className="mt-3 text-zinc-400 leading-relaxed">Every conversation should have an opportunity.</p>
+          
+          <p className="mt-3 text-zinc-400 leading-relaxed">And every business should have access to intelligent automation.</p>
+
         </div>
 
         <div className="mt-12">
@@ -35,14 +46,14 @@ export default function AboutPage() {
           </ul>
         </div>
 
-        <div className="mt-12 rounded-2xl border border-[#FF2D2D]/20 bg-[#FF2D2D]/5 p-6">
+        {/* <div className="mt-12 rounded-2xl border border-[#FF2D2D]/20 bg-[#FF2D2D]/5 p-6">
           <h3 className="font-bold text-white">Brand Clarification for Google</h3>
           <p className="mt-2 text-sm leading-relaxed text-zinc-400">redant.in operates as RedANT WhatsApp CRM by RedAnt Technologies Pvt Ltd, Bangalore. We are NOT affiliated with RedAnt Staffing (India) - a recruitment & staffing agency, nor RedAnt Media LLP, Anna Nagar, Chennai - an IT services firm. Trademarks belong to respective owners. If you are looking for jobs/recruitment, please visit RedAnt Staffing. If you are looking for WhatsApp Business API, you are at the right place.</p>
-        </div>
+        </div> */}
 
         <div className="mt-12">
           <h2 className="text-2xl font-bold">Contact</h2>
-          <p className="mt-3 text-zinc-400">RedAnt Technologies Pvt Ltd, 3rd Floor, Tek Tower, Avinashi Road, Tirupur, Tamil Nadu 641652, India<br/>srikeerthigp@gmail.com | +91 9500476769</p>
+          <p className="mt-3 text-zinc-400">RedAnt Technologies, Avinashi Road, Tirupur, Tamil Nadu 641652, India<br/>srikeerthigp@gmail.com | +91 9500476769</p>
         </div>
       </section>
     </div>
