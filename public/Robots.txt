@@ -1,0 +1,6 @@
+# https://redant.in/robots.txt
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://redant.in/sitemap.xml
