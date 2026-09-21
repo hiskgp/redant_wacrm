@@ -254,17 +254,7 @@ Before submitting changes, please ensure that:
 * Relevant checks and tests are completed.
 * Changes are documented where necessary.
 
----
-
-## License & Attribution
-
-This repository is distributed under the MIT License, subject to the terms of the included `LICENSE` file.
-
-If this project is derived from or incorporates code from another repository, retain the original copyright notices, license terms, and required attributions.
-
-Original project: [ArnasDon/wacrm](https://github.com/ArnasDon/wacrm)
-
----
+--
 
 ## Contact
 
