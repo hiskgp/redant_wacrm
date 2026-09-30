@@ -1,4 +1,5 @@
 import Script from "next/script";
+import { Analytics } from "@vercel/analytics/next";
 
 export const metadata = {
   title: "redant.in | RedANT — WhatsApp Business API | AI Automate WhatsApp",
@@ -51,7 +52,10 @@ export default function RootLayout({ children }) {
         <meta name="facebook-domain-verification" content="iv2ugw9md9gz86u4yw8w9xq172iy49" />
       </head>
 
-      <body>{children}</body>
+      <body>
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }
